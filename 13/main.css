@@ -1,0 +1,42 @@
+
+*
+{
+	margin: 0px;
+}
+
+#back {
+	background-color: aqua;
+	border-width: 2px;
+	border-style: solid;
+	border-color: green;
+	}
+	
+#menu {
+	background-color: bisque;
+	float: left;
+	width: 400px;
+	}
+.leftimg{
+
+	float: right;
+	max-width: 500px;
+	width: 50%;
+}	
+
+#content {
+	background-color: darkgray;
+	margin-left: 505px;
+	margin-right: 5px;
+	overflow: hidden;
+
+	}
+@media screen and (max-width: 900px)
+	{
+	#menu{
+		width: 120px;
+		}
+	#content{
+		margin-left: 120px;
+		}
+	}
+	

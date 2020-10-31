@@ -1,0 +1,56 @@
+*
+{
+	margin: 0px;
+}
+.back
+{
+	border-width: 2px;
+    border-style: solid;
+    border-color: green;
+	background-color: aqua;
+}
+.menu
+{
+    float:left;
+	padding: 15px;
+	background-color: bisque;
+	width: 150px;
+	height: 80px;
+	left: 0;
+	top: 0;
+	margin-right: 0px;
+	
+}
+#content
+{
+	margin: 0px 0;
+	overflow: hidden;
+	background-color: darkgray;
+}
+@media screen and (max-width: 600px){
+	html { overflow-x: hidden; }
+	.menu{
+		width: 100%;
+		padding: 15px;
+		background-color: bisque;
+		position: relative;
+		margin-top: 15px;
+		height: 5px;
+	}
+	#content
+{
+	clear:left;
+	background-color: darkgrey;
+	position: relative;
+	left:0px;
+	top: 15px;
+	overflow-x: hidden;
+}
+}
+li{
+display: inline;
+}
+
+
+
+
